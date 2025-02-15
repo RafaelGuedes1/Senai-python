@@ -1,14 +1,15 @@
-# Caucule os numeros pares alternados de acordo com o numero que o usuario digitar
+# verificar se é impar ou par
 
-print("Digite um numero: ")
-numero = int(input())
+""" 
+Digite um numero inteiro, verifique se o numero é impar ou par
+Escreva a mensagem correspondente """
 
-print("Digite o segundo numero: ")
-numero2 = int(input())
+print ("Digite um numero inteiro")
+n1 = int (input())
 
+if n1 % 2 == 0:
+    print("O numero é par")
+else:
+    print("O numero é impar")
 
-for x in range(numero, numero2 + 1):
-    if x % 2 == 0:
-        print(x)
-    else:
-        continue
+# Fim

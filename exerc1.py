@@ -1,36 +1,18 @@
-# converter temperatura de celsius para fahrenheit
+# soma de 3 numeros
+print ("Seja bem vindi ao inseridor de numeros")
 
-print("digite 1 para  Ceusius, 2 para Fahrenheit, 3 para Kelvin")
-opcao = int(input())
+print ("Digite o primeiro numero")
 
-if opcao == 1:
-    print("Conversor de temperatura de Fahrenheit para Celsius")
-    print("Digite a temperatura em Fahrenheit: ")
-    fahrenheit = float(input())
+n1 = int (input())
 
-    formula = (fahrenheit - 32) * 5/9
+print ("Digite o segundo numero")
 
-    print("A temperatura em Celsius é: ", formula)
+n2 = int (input()) 
 
-elif opcao == 2:
+print ("Digite o terceiro numero")
 
-    print("Conversor de temperatura de Celsius para Fahrenheit")
-    print("Digite a temperatura em Celsius: ")
-    celsius = float(input())
+n3 = int (input())
 
-    formula = (celsius * 9/5) + 32
+resultado = n1 + n2 + n3
 
-    print("A temperatura em Fahrenheit é: ", formula)
-
-elif opcao == 3:
-    
-        print("Conversor de temperatura de Celsius para Kelvin")
-        print("Digite a temperatura em Celsius: ")
-        celsius = float(input())
-    
-        formula = celsius + 273.15
-    
-        print("A temperatura em Kelvin é: ", formula)
-
-else:
-    print("Opção inválida")
+print ("esse e seu resultado: ", resultado)
