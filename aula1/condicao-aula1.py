@@ -1,0 +1,15 @@
+print(10==10) #True
+print(10!=5) #True
+print(10>5) #True
+print(10<5) #False
+
+#logico
+
+print(10==10 and 2==2) #True and True = True
+print(10<5 and 2==2) #False and True = False
+
+print((10<5) or (2==2)) #False or True = True
+print((10>5) or (2=3)) #True or False = True
+
+print(not(10==10)) #not True = False
+
