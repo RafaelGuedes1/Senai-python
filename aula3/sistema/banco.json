@@ -1,0 +1,38 @@
+{
+    "clientes": [
+        {
+            "nome": "Rafael Guedes",
+            "email": "rafael@gmail.com",
+            "idade": 34
+        }
+    ],
+    "produtos": [
+        {
+            "nome": "pc",
+            "preco": 34.0,
+            "quantidade": 43
+        },
+        {
+            "nome": "carteira",
+            "preco": 34.0,
+            "quantidade": 43
+        },
+        {
+            "nome": "cafe",
+            "preco": 45.0,
+            "quantidade": 5
+        },
+        {
+            "id": 4,
+            "nome": "cafe",
+            "preco": 2.0,
+            "quantidade": 2
+        },
+        {
+            "id": 5,
+            "nome": "cafe",
+            "preco": 2.0,
+            "quantidade": 2
+        }
+    ]
+}
