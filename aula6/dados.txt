@@ -1,0 +1,4 @@
+Nome, Idade, Cidade
+Alberto, 28, Arraial/RJ
+Matheus, 28, Cotia/SP
+Ana, 25, São Paulo/SP
